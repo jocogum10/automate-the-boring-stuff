@@ -20,9 +20,9 @@ matches = []
 day_limit = 0 
 
 for groups in dateRegex.findall(text):
-    date = groups[1]
-    month = groups[2]
-    year = groups[3]
+    date = int(groups[1])
+    month = int(groups[2])
+    year = int(groups[3])
 
     # determine if leap year
     if (year%4)==0:             # if leap year
