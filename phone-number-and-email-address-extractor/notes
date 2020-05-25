@@ -1,0 +1,22 @@
+Whenever you’re tackling a new project, it can be tempting to dive right
+into writing code. But more often than not, it’s best to take a step back and
+consider the bigger picture. I recommend first drawing up a high-level plan
+for what your program needs to do. Don’t think about the actual code yet—
+you can worry about that later. Right now, stick to broad strokes.
+
+what your program needs to do:
+1. get the text off the clipboard
+2. find all phone numbers and email address in the text
+3. paste them into the clipboard
+
+what your code needs to do:
+1. use the pyperclip module to copy and paste strings
+2. create two regexes, one for matching phone numbers and the other
+for matching email addresses.
+3. find all matches, not just the first match, of both regexes.
+4. neatly format the matched strings into a single string to paste.
+5. display some kind of message if no matches were found in the text
+
+This list is like a road map for the project. As you write the code, you
+can focus on each of these steps separately. Each step is fairly manageable
+and expressed in terms of things you already know how to do in Python.
